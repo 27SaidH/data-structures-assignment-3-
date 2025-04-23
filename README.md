@@ -21,6 +21,8 @@ display_all() – Displays all elements in the queue using only queue operations
 
 This implementation maintains internal pointers to both the front and back nodes, as well as a counter for num_items.
 
+------------------------------------------------------------
+
 Part 2: Recursive Linear Search
 A recursive function was written to find the last occurrence of a target element in a vector. It uses a backward recursive step to compare from the end of the vector to the beginning.
 
@@ -28,6 +30,8 @@ Function Signature:
 
 linear_search_last(const vector<T>& items, const T& target, size_t pos_last);
 If the target is found, it returns the index of its last occurrence; otherwise, it returns -1.
+
+------------------------------------------------------------
 
 Part 3: Insertion Sort Using a Queue
 Insertion sort was implemented using queue operations. A temporary queue was used to maintain sorted order:
@@ -38,6 +42,9 @@ After sorting is complete, elements are transferred back to the original queue.
 
 This satisfies the requirement to sort a list structure (a queue backed by a linked list) without using arrays or vectors.
 
+
+
+------------------------------------------------------------
 How to Run the Code
 Steps in Visual Studio
 Open Visual Studio and create a new C++ project.
